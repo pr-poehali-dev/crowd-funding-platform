@@ -49,99 +49,99 @@ export default function Index() {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'Инновационное приложение для экологии',
-      description: 'Помогаем сохранить планету через умные технологии',
-      raised: 45000,
-      goal: 100000,
-      backers: 234,
-      daysLeft: 12,
-      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/23700e5c-c9a0-4f16-8751-98223bbd7283.jpg',
-      category: 'Технологии'
+      title: 'Модернизация нефтедобывающего оборудования',
+      description: 'Внедрение современных технологий для повышения эффективности добычи',
+      raised: 12500000,
+      goal: 25000000,
+      backers: 48,
+      daysLeft: 45,
+      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/48e7250c-ed8e-4ab5-a0fb-f389f0822812.jpg',
+      category: 'Добыча'
     },
     {
       id: 2,
-      title: 'Образовательная платформа для детей',
-      description: 'Делаем обучение увлекательным и доступным',
-      raised: 78000,
-      goal: 120000,
-      backers: 456,
-      daysLeft: 8,
-      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/71ef07f1-e90b-4180-aa7a-19900bce1a0c.jpg',
-      category: 'Образование'
+      title: 'Строительство газопровода в Сибири',
+      description: 'Развитие газотранспортной инфраструктуры региона',
+      raised: 18750000,
+      goal: 35000000,
+      backers: 72,
+      daysLeft: 60,
+      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/7f909081-b708-4baf-ab56-8d909fe464ce.jpg',
+      category: 'Транспортировка'
     },
     {
       id: 3,
-      title: 'Проект поддержки местных художников',
-      description: 'Создаем пространство для творчества и культуры',
-      raised: 32000,
-      goal: 50000,
-      backers: 189,
-      daysLeft: 20,
-      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/7cc748d7-9d8e-48e3-82b3-56d22313afda.jpg',
-      category: 'Искусство'
+      title: 'Реконструкция НПЗ с использованием зеленых технологий',
+      description: 'Снижение выбросов и повышение энергоэффективности переработки',
+      raised: 8200000,
+      goal: 15000000,
+      backers: 34,
+      daysLeft: 30,
+      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/80d1bb3b-ec6d-4915-b167-fc9086187744.jpg',
+      category: 'Переработка'
     }
   ];
 
   const forumTopics: ForumTopic[] = [
     {
       id: 1,
-      title: 'Как правильно оформить проект для максимального отклика?',
-      author: 'Анна Петрова',
-      replies: 23,
-      views: 456,
-      lastActivity: '2 часа назад'
-    },
-    {
-      id: 2,
-      title: 'Истории успеха: Мой проект собрал 200% за неделю!',
-      author: 'Михаил Сидоров',
-      replies: 45,
-      views: 892,
+      title: 'Перспективы развития шельфовой добычи в Арктике',
+      author: 'Игорь Нефтегазов',
+      replies: 34,
+      views: 1240,
       lastActivity: '1 час назад'
     },
     {
-      id: 3,
-      title: 'Вопросы о платформе и её функционале',
-      author: 'Елена Иванова',
-      replies: 12,
-      views: 234,
+      id: 2,
+      title: 'Новые технологии повышения нефтеотдачи пластов',
+      author: 'Елена Буровая',
+      replies: 56,
+      views: 2180,
       lastActivity: '3 часа назад'
+    },
+    {
+      id: 3,
+      title: 'Экологические стандарты в нефтегазовой отрасли 2025',
+      author: 'Дмитрий Экологов',
+      replies: 28,
+      views: 890,
+      lastActivity: '5 часов назад'
     }
   ];
 
   const chatMessages: ChatMessage[] = [
     {
       id: 1,
-      author: 'Дмитрий',
-      message: 'Привет всем! Кто-нибудь запускал проект в категории технологий?',
+      author: 'Сергей',
+      message: 'Коллеги, кто работал с проектами по модернизации буровых установок?',
       time: '14:32',
-      avatar: 'DK'
+      avatar: 'СП'
     },
     {
       id: 2,
-      author: 'Светлана',
-      message: 'Да, я! Могу поделиться опытом. Что именно интересует?',
+      author: 'Мария',
+      message: 'У нас был успешный опыт! Готова проконсультировать по техническим аспектам.',
       time: '14:35',
-      avatar: 'СМ'
+      avatar: 'МТ'
     },
     {
       id: 3,
-      author: 'Александр',
-      message: 'Я тоже готов помочь советом по маркетингу проекта',
+      author: 'Владимир',
+      message: 'Могу помочь с оценкой экономической эффективности инвестиций',
       time: '14:38',
-      avatar: 'АР'
+      avatar: 'ВК'
     }
   ];
 
   const stats = [
-    { label: 'Проектов запущено', value: '1,234', icon: FolderKanban },
-    { label: 'Собрано средств', value: '₽45.6M', icon: FolderKanban },
-    { label: 'Активных спонсоров', value: '12,456', icon: User }
+    { label: 'Проектов реализовано', value: '347', icon: FolderKanban },
+    { label: 'Инвестировано', value: '₽18.4 млрд', icon: FolderKanban },
+    { label: 'Активных инвесторов', value: '2,890', icon: User }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
-      <nav className="bg-white/80 backdrop-blur-lg border-b border-purple-100 sticky top-0 z-50 shadow-sm">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-slate-50 to-sky-50">
+      <nav className="bg-white/80 backdrop-blur-lg border-b border-blue-100 sticky top-0 z-50 shadow-sm">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -149,7 +149,7 @@ export default function Index() {
                 <Icon name="Rocket" className="text-white" size={24} />
               </div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                CrowdFund
+                OilGasFund
               </h1>
             </div>
             
@@ -168,7 +168,7 @@ export default function Index() {
                   className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all ${
                     activeSection === item.id
                       ? 'bg-gradient-to-r from-primary to-secondary text-white shadow-lg'
-                      : 'text-gray-600 hover:text-primary hover:bg-purple-50'
+                      : 'text-gray-600 hover:text-primary hover:bg-blue-50'
                   }`}
                 >
                   <Icon name={item.icon.name} size={20} />
@@ -190,10 +190,10 @@ export default function Index() {
             <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary via-secondary to-accent p-12 text-white shadow-2xl">
               <div className="relative z-10 max-w-3xl">
                 <h2 className="text-5xl font-bold mb-4">
-                  Воплоти свою идею в жизнь
+                  Инвестиции в нефтегазовую отрасль
                 </h2>
                 <p className="text-xl mb-8 text-white/90">
-                  Платформа для сбора средств на проекты, которые меняют мир. Присоединяйся к сообществу создателей и спонсоров!
+                  Платформа для привлечения инвестиций в крупные проекты нефтегазового сектора. Объединяем инвесторов и реализаторов промышленных проектов.
                 </p>
                 <div className="flex gap-4">
                   <Button size="lg" className="bg-white text-primary hover:bg-gray-100 shadow-lg">
@@ -206,7 +206,7 @@ export default function Index() {
               </div>
               <div className="absolute right-0 top-0 w-1/2 h-full opacity-20">
                 <img 
-                  src="https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/7cc748d7-9d8e-48e3-82b3-56d22313afda.jpg" 
+                  src="https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/48e7250c-ed8e-4ab5-a0fb-f389f0822812.jpg" 
                   alt="Hero" 
                   className="w-full h-full object-cover"
                 />
@@ -265,11 +265,11 @@ export default function Index() {
                         <Progress value={(project.raised / project.goal) * 100} className="h-2" />
                       </div>
                       <div className="flex justify-between text-sm text-muted-foreground">
-                        <span>{project.backers} спонсоров</span>
+                        <span>{project.backers} инвесторов</span>
                         <span>{project.daysLeft} дней осталось</span>
                       </div>
                       <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
-                        Поддержать проект
+                        Инвестировать
                       </Button>
                     </CardContent>
                   </Card>
@@ -285,15 +285,15 @@ export default function Index() {
               <h2 className="text-4xl font-bold">Все проекты</h2>
               <div className="flex gap-2">
                 <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Все</Badge>
-                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Технологии</Badge>
-                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Образование</Badge>
-                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Искусство</Badge>
+                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Добыча</Badge>
+                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Транспортировка</Badge>
+                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Переработка</Badge>
               </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {projects.map((project) => (
-                <Card key={project.id} className="overflow-hidden border-2 border-purple-100 hover:border-primary transition-all hover:shadow-xl hover:-translate-y-1">
+                <Card key={project.id} className="overflow-hidden border-2 border-blue-100 hover:border-primary transition-all hover:shadow-xl hover:-translate-y-1">
                   <div className="relative h-48 overflow-hidden">
                     <img 
                       src={project.image} 
@@ -337,33 +337,33 @@ export default function Index() {
                 О платформе
               </h2>
               <p className="text-xl text-muted-foreground">
-                Мы создаем пространство, где идеи становятся реальностью
+                Объединяем инвесторов и промышленные проекты
               </p>
             </div>
 
-            <Card className="border-2 border-purple-100">
+            <Card className="border-2 border-blue-100">
               <CardHeader>
                 <CardTitle className="text-2xl">Наша миссия</CardTitle>
               </CardHeader>
               <CardContent className="text-lg text-muted-foreground space-y-4">
                 <p>
-                  CrowdFund — это современная платформа для сбора средств на проекты, которые меняют мир к лучшему. 
-                  Мы объединяем создателей и спонсоров, помогая воплощать самые смелые идеи в реальность.
+                  OilGasFund — это инвестиционная платформа для привлечения капитала в крупные нефтегазовые проекты. 
+                  Мы объединяем инвесторов и промышленные компании, реализующие масштабные проекты по добыче, транспортировке и переработке.
                 </p>
                 <p>
-                  Наша цель — сделать процесс краудфандинга простым, прозрачным и эффективным. 
-                  Мы предоставляем все необходимые инструменты для успешного запуска и продвижения проектов.
+                  Наша цель — обеспечить прозрачный и эффективный доступ к инвестициям в энергетический сектор. 
+                  Платформа предоставляет полную информацию о проектах, их прогрессе и потенциальной доходности.
                 </p>
               </CardContent>
             </Card>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { title: 'Прозрачность', description: 'Отслеживайте каждый этап развития проекта', icon: 'Eye' },
-                { title: 'Безопасность', description: 'Защищенные платежи и гарантия возврата', icon: 'Shield' },
-                { title: 'Сообщество', description: 'Общайтесь с единомышленниками', icon: 'Users' }
+                { title: 'Прозрачность', description: 'Полная отчетность по проекту в режиме реального времени', icon: 'Eye' },
+                { title: 'Надежность', description: 'Проверенные промышленные проекты с гарантиями', icon: 'Shield' },
+                { title: 'Экспертиза', description: 'Профессиональное сообщество нефтегазовой отрасли', icon: 'Users' }
               ].map((feature, index) => (
-                <Card key={index} className="border-2 border-purple-100 hover:border-primary transition-all hover:shadow-lg">
+                <Card key={index} className="border-2 border-blue-100 hover:border-primary transition-all hover:shadow-lg">
                   <CardHeader>
                     <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary/10 to-secondary/10 flex items-center justify-center mb-4">
                       <Icon name={feature.icon} className="text-primary" size={24} />
@@ -390,7 +390,7 @@ export default function Index() {
                   </Avatar>
                   <div>
                     <CardTitle className="text-3xl">Иван Петров</CardTitle>
-                    <CardDescription className="text-base">Создатель • Спонсор</CardDescription>
+                    <CardDescription className="text-base">Инженер • Инвестор</CardDescription>
                   </div>
                 </div>
               </CardHeader>
@@ -398,7 +398,7 @@ export default function Index() {
                 <Tabs defaultValue="created" className="w-full">
                   <TabsList className="grid w-full grid-cols-3">
                     <TabsTrigger value="created">Мои проекты</TabsTrigger>
-                    <TabsTrigger value="backed">Поддержанные</TabsTrigger>
+                    <TabsTrigger value="backed">Инвестиции</TabsTrigger>
                     <TabsTrigger value="activity">Активность</TabsTrigger>
                   </TabsList>
                   <TabsContent value="created" className="space-y-4">
@@ -412,7 +412,7 @@ export default function Index() {
                   </TabsContent>
                   <TabsContent value="backed" className="space-y-4">
                     {projects.slice(0, 2).map((project) => (
-                      <Card key={project.id} className="border border-purple-100">
+                      <Card key={project.id} className="border border-blue-100">
                         <CardHeader>
                           <div className="flex items-center gap-4">
                             <img src={project.image} alt={project.title} className="w-16 h-16 rounded-lg object-cover" />
@@ -429,7 +429,7 @@ export default function Index() {
                     <div className="space-y-3">
                       <div className="flex items-center gap-3 p-3 rounded-lg bg-muted">
                         <Icon name="Heart" className="text-red-500" size={20} />
-                        <span className="text-sm">Вы поддержали проект "Инновационное приложение для экологии"</span>
+                        <span className="text-sm">Вы инвестировали в проект "Модернизация нефтедобывающего оборудования"</span>
                       </div>
                       <div className="flex items-center gap-3 p-3 rounded-lg bg-muted">
                         <Icon name="MessageSquare" className="text-primary" size={20} />
@@ -453,7 +453,7 @@ export default function Index() {
               </Button>
             </div>
 
-            <Card className="border-2 border-purple-100">
+            <Card className="border-2 border-blue-100">
               <CardHeader>
                 <CardTitle>Создать новую тему</CardTitle>
               </CardHeader>
@@ -462,11 +462,11 @@ export default function Index() {
                   placeholder="Заголовок темы" 
                   value={newTopic}
                   onChange={(e) => setNewTopic(e.target.value)}
-                  className="border-purple-100"
+                  className="border-blue-100"
                 />
                 <Textarea 
                   placeholder="Опишите вашу тему подробнее..." 
-                  className="min-h-[100px] border-purple-100"
+                  className="min-h-[100px] border-blue-100"
                 />
                 <Button className="bg-gradient-to-r from-primary to-secondary">
                   Опубликовать тему
@@ -476,7 +476,7 @@ export default function Index() {
 
             <div className="space-y-4">
               {forumTopics.map((topic) => (
-                <Card key={topic.id} className="border border-purple-100 hover:border-primary transition-all hover:shadow-lg cursor-pointer">
+                <Card key={topic.id} className="border border-blue-100 hover:border-primary transition-all hover:shadow-lg cursor-pointer">
                   <CardHeader>
                     <div className="flex items-start justify-between">
                       <div className="space-y-2 flex-1">
@@ -511,14 +511,14 @@ export default function Index() {
 
         {activeSection === 'chat' && (
           <div className="max-w-5xl mx-auto animate-fade-in">
-            <Card className="border-2 border-purple-100 h-[600px] flex flex-col">
-              <CardHeader className="border-b border-purple-100">
+            <Card className="border-2 border-blue-100 h-[600px] flex flex-col">
+              <CardHeader className="border-b border-blue-100">
                 <CardTitle className="flex items-center gap-2">
                   <Icon name="MessageCircle" size={24} className="text-primary" />
-                  Общий чат
-                  <Badge variant="outline" className="ml-auto">124 онлайн</Badge>
+                  Профессиональный чат
+                  <Badge variant="outline" className="ml-auto">87 онлайн</Badge>
                 </CardTitle>
-                <CardDescription>Общайтесь с создателями и спонсорами в режиме реального времени</CardDescription>
+                <CardDescription>Общайтесь с экспертами и инвесторами в режиме реального времени</CardDescription>
               </CardHeader>
               
               <CardContent className="flex-1 overflow-y-auto p-6 space-y-4">
@@ -542,13 +542,13 @@ export default function Index() {
                 ))}
               </CardContent>
 
-              <div className="border-t border-purple-100 p-4">
+              <div className="border-t border-blue-100 p-4">
                 <div className="flex gap-2">
                   <Input 
                     placeholder="Напишите сообщение..." 
                     value={newMessage}
                     onChange={(e) => setNewMessage(e.target.value)}
-                    className="border-purple-100"
+                    className="border-blue-100"
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' && newMessage.trim()) {
                         setNewMessage('');
@@ -565,14 +565,14 @@ export default function Index() {
         )}
       </main>
 
-      <footer className="bg-white/80 backdrop-blur-lg border-t border-purple-100 mt-20">
+      <footer className="bg-white/80 backdrop-blur-lg border-t border-blue-100 mt-20">
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
                 <Icon name="Rocket" className="text-white" size={20} />
               </div>
-              <span className="font-semibold text-muted-foreground">CrowdFund © 2024</span>
+              <span className="font-semibold text-muted-foreground">OilGasFund © 2024</span>
             </div>
             <div className="flex gap-6 text-sm text-muted-foreground">
               <a href="#" className="hover:text-primary transition-colors">О нас</a>
