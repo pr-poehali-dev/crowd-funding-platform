@@ -49,87 +49,87 @@ export default function Index() {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'Модернизация нефтедобывающего оборудования',
-      description: 'Внедрение современных технологий для повышения эффективности добычи',
-      raised: 12500000,
-      goal: 25000000,
-      backers: 48,
-      daysLeft: 45,
-      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/48e7250c-ed8e-4ab5-a0fb-f389f0822812.jpg',
-      category: 'Добыча'
+      title: 'Внедрение солнечных панелей на нефтяных платформах',
+      description: 'Переход на возобновляемую энергию и снижение углеродного следа',
+      raised: 14500000,
+      goal: 28000000,
+      backers: 56,
+      daysLeft: 42,
+      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/871f8361-4450-4996-996a-4dd79b93d74d.jpg',
+      category: 'Зелёная энергия'
     },
     {
       id: 2,
-      title: 'Строительство газопровода в Сибири',
-      description: 'Развитие газотранспортной инфраструктуры региона',
-      raised: 18750000,
-      goal: 35000000,
-      backers: 72,
-      daysLeft: 60,
-      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/7f909081-b708-4baf-ab56-8d909fe464ce.jpg',
-      category: 'Транспортировка'
+      title: 'Система улавливания и хранения CO2 на газовых месторождениях',
+      description: 'Технология карбонового захвата для нулевых выбросов парниковых газов',
+      raised: 22300000,
+      goal: 40000000,
+      backers: 84,
+      daysLeft: 55,
+      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/3cfce6fa-cb8b-4c8c-861c-20ddca251389.jpg',
+      category: 'Карбоновый нейтралитет'
     },
     {
       id: 3,
-      title: 'Реконструкция НПЗ с использованием зеленых технологий',
-      description: 'Снижение выбросов и повышение энергоэффективности переработки',
-      raised: 8200000,
-      goal: 15000000,
-      backers: 34,
-      daysLeft: 30,
-      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/80d1bb3b-ec6d-4915-b167-fc9086187744.jpg',
-      category: 'Переработка'
+      title: 'Производство водорода из природного газа',
+      description: 'Чистое водородное топливо как альтернатива традиционным энергоносителям',
+      raised: 9800000,
+      goal: 18000000,
+      backers: 41,
+      daysLeft: 38,
+      image: 'https://cdn.poehali.dev/projects/c6f4161b-041a-4156-a629-00f4f7006ec4/files/b3f794d4-6708-47b3-a8f3-3ff5c6794a91.jpg',
+      category: 'Водород'
     }
   ];
 
   const forumTopics: ForumTopic[] = [
     {
       id: 1,
-      title: 'Перспективы развития шельфовой добычи в Арктике',
-      author: 'Игорь Нефтегазов',
-      replies: 34,
-      views: 1240,
-      lastActivity: '1 час назад'
+      title: 'Водородная энергетика: будущее нефтегазовой отрасли?',
+      author: 'Анастасия Зеленева',
+      replies: 67,
+      views: 2340,
+      lastActivity: '30 минут назад'
     },
     {
       id: 2,
-      title: 'Новые технологии повышения нефтеотдачи пластов',
-      author: 'Елена Буровая',
-      replies: 56,
-      views: 2180,
-      lastActivity: '3 часа назад'
+      title: 'Опыт внедрения CCS технологий в России',
+      author: 'Михаил Экотех',
+      replies: 89,
+      views: 3120,
+      lastActivity: '1 час назад'
     },
     {
       id: 3,
-      title: 'Экологические стандарты в нефтегазовой отрасли 2025',
-      author: 'Дмитрий Экологов',
-      replies: 28,
-      views: 890,
-      lastActivity: '5 часов назад'
+      title: 'Солнечная энергия на морских платформах: экономическая целесообразность',
+      author: 'Елена Солнечная',
+      replies: 42,
+      views: 1560,
+      lastActivity: '2 часа назад'
     }
   ];
 
   const chatMessages: ChatMessage[] = [
     {
       id: 1,
-      author: 'Сергей',
-      message: 'Коллеги, кто работал с проектами по модернизации буровых установок?',
+      author: 'Александр',
+      message: 'Кто-нибудь работал с технологиями улавливания углерода? Интересует ROI.',
       time: '14:32',
-      avatar: 'СП'
+      avatar: 'АЭ'
     },
     {
       id: 2,
-      author: 'Мария',
-      message: 'У нас был успешный опыт! Готова проконсультировать по техническим аспектам.',
+      author: 'Ольга',
+      message: 'У нас пилотный проект по CCS запустился! Поделюсь опытом и цифрами.',
       time: '14:35',
-      avatar: 'МТ'
+      avatar: 'ОЗ'
     },
     {
       id: 3,
-      author: 'Владимир',
-      message: 'Могу помочь с оценкой экономической эффективности инвестиций',
+      author: 'Дмитрий',
+      message: 'Ищу партнеров для водородного проекта. Есть грант от Минэнерго.',
       time: '14:38',
-      avatar: 'ВК'
+      avatar: 'ДВ'
     }
   ];
 
@@ -285,9 +285,9 @@ export default function Index() {
               <h2 className="text-4xl font-bold">Все проекты</h2>
               <div className="flex gap-2">
                 <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Все</Badge>
-                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Добыча</Badge>
-                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Транспортировка</Badge>
-                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Переработка</Badge>
+                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Зелёная энергия</Badge>
+                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Карбоновый нейтралитет</Badge>
+                <Badge variant="outline" className="cursor-pointer hover:bg-primary hover:text-white transition-all">Водород</Badge>
               </div>
             </div>
 
@@ -429,7 +429,7 @@ export default function Index() {
                     <div className="space-y-3">
                       <div className="flex items-center gap-3 p-3 rounded-lg bg-muted">
                         <Icon name="Heart" className="text-red-500" size={20} />
-                        <span className="text-sm">Вы инвестировали в проект "Модернизация нефтедобывающего оборудования"</span>
+                        <span className="text-sm">Вы инвестировали в проект "Внедрение солнечных панелей на нефтяных платформах"</span>
                       </div>
                       <div className="flex items-center gap-3 p-3 rounded-lg bg-muted">
                         <Icon name="MessageSquare" className="text-primary" size={20} />
